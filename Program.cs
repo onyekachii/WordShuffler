@@ -10,7 +10,8 @@ namespace LINQASSIGNMENT
     {
         static void Main(string[] args)
         {
-            Application.Run();
+            Application.RunMethodSyntax();
+            Application.RunQuerySyntax();
         }
         
     }
