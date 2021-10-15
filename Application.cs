@@ -14,17 +14,17 @@ namespace LINQASSIGNMENT
         {
             Console.WriteLine("Type in the words or a sentence of words to shuffle!");
             string sentence = Console.ReadLine();
-            arrayOfWords = sentence.Split(new char[] { ' ', ',', '.', ';', '\n', '\t' });
+            arrayOfWords = sentence.Split(new char[] { ' ', ',', '.', ';', ':', '\n', '\t' });
                                   
             Random random = new Random();
 
             var shuffledWords = arrayOfWords.OrderBy(i => random.Next(arrayOfWords.Length));
-            foreach (string i in shuffledWords)
+            foreach (string item in shuffledWords)
             {
-                if (i.Trim() != "")
+                if (item.Trim() != "")
                 {
                     count++;
-                    Console.WriteLine($"\n{i}");
+                    Console.WriteLine($"\n{item}");
                 }                    
             }
             Console.WriteLine($"\nA total of {count} has been shuffled using Method syntax.");

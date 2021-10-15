@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordShuffler", "WordShuffler.csproj", "{8FD108E6-F4AB-4BF6-91CD-A6703BDD1C43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialCharCompiler", "..\SpecialCharCompiler\SpecialCharCompiler.csproj", "{33DA0469-268E-4C2A-80B7-EB64208D08A9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{8FD108E6-F4AB-4BF6-91CD-A6703BDD1C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FD108E6-F4AB-4BF6-91CD-A6703BDD1C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FD108E6-F4AB-4BF6-91CD-A6703BDD1C43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33DA0469-268E-4C2A-80B7-EB64208D08A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33DA0469-268E-4C2A-80B7-EB64208D08A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33DA0469-268E-4C2A-80B7-EB64208D08A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33DA0469-268E-4C2A-80B7-EB64208D08A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
